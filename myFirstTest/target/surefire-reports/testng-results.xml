@@ -2,16 +2,32 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.sk.LoginTest" duration-ms="28" started-at="2016-05-29T04:16:10Z" finished-at="2016-05-29T04:16:10Z">
+  <suite name="com.sk.LoginTest" duration-ms="25557" started-at="2016-05-29T13:47:02Z" finished-at="2016-05-29T13:47:28Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="28" started-at="2016-05-29T04:16:10Z" finished-at="2016-05-29T04:16:10Z">
+    <test name="Command line test" duration-ms="25557" started-at="2016-05-29T13:47:02Z" finished-at="2016-05-29T13:47:28Z">
       <class name="com.sk.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sk.LoginTest@25feb227]" name="beforeTest" is-config="true" duration-ms="8" started-at="2016-05-29T00:16:10Z" finished-at="2016-05-29T00:16:10Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sk.LoginTest@4157f54e]" name="beforeTest" is-config="true" duration-ms="11889" started-at="2016-05-29T09:47:02Z" finished-at="2016-05-29T09:47:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@25feb227]" name="regularLoginIn" duration-ms="0" started-at="2016-05-29T00:16:10Z" data-provider="dp" finished-at="2016-05-29T00:16:10Z">
+        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@4157f54e]" name="regularLoginIn" duration-ms="7721" started-at="2016-05-29T09:47:14Z" data-provider="dp" finished-at="2016-05-29T09:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Steven KS Koo / password git latest ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regularLoginIn -->
+        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@4157f54e]" name="regularLoginIn" duration-ms="5888" started-at="2016-05-29T09:47:22Z" data-provider="dp" finished-at="2016-05-29T09:47:27Z">
           <params>
             <param index="0">
               <value>
@@ -27,23 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regularLoginIn -->
-        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@25feb227]" name="regularLoginIn" duration-ms="0" started-at="2016-05-29T00:16:10Z" data-provider="dp" finished-at="2016-05-29T00:16:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Steven Koo / password git latest]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regularLoginIn -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sk.LoginTest@25feb227]" name="afterTest" is-config="true" duration-ms="4" started-at="2016-05-29T00:16:10Z" finished-at="2016-05-29T00:16:10Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sk.LoginTest@4157f54e]" name="afterTest" is-config="true" duration-ms="35" started-at="2016-05-29T09:47:27Z" finished-at="2016-05-29T09:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

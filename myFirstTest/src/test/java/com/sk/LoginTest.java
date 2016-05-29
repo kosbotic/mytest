@@ -11,7 +11,7 @@ public class LoginTest {
 	WebDriver driver;
   @Test(dataProvider = "dp")
   public void regularLoginIn(Integer n, String s) {
-	  driver.manage().window().maximize();
+//	  driver.manage().window().maximize();
 	  driver.get("http://www.yahoo.com");
 	  String title = driver.getTitle();
 	  System.out.println(title+ "- Perfect login --> n="+n+" / s="+s);
