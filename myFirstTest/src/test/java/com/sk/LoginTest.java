@@ -14,7 +14,7 @@ public class LoginTest {
 //	  driver.manage().window().maximize();
 	  driver.get("http://www.yahoo.com");
 	  String title = driver.getTitle();
-	  System.out.println(title+ "- Perfect login --> n="+n+" / s="+s);
+	  System.out.println(title+ "- Perfect login test --> n="+n+" / s="+s);
   }
 
   @DataProvider
