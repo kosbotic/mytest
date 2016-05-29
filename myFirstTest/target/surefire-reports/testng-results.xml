@@ -2,32 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.sk.LoginTest" duration-ms="55" started-at="2016-05-29T03:56:25Z" finished-at="2016-05-29T03:56:25Z">
+  <suite name="com.sk.LoginTest" duration-ms="28" started-at="2016-05-29T04:16:10Z" finished-at="2016-05-29T04:16:10Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="55" started-at="2016-05-29T03:56:25Z" finished-at="2016-05-29T03:56:25Z">
+    <test name="Command line test" duration-ms="28" started-at="2016-05-29T04:16:10Z" finished-at="2016-05-29T04:16:10Z">
       <class name="com.sk.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sk.LoginTest@4cb2c100]" name="beforeTest" is-config="true" duration-ms="21" started-at="2016-05-28T23:56:25Z" finished-at="2016-05-28T23:56:25Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sk.LoginTest@25feb227]" name="beforeTest" is-config="true" duration-ms="8" started-at="2016-05-29T00:16:10Z" finished-at="2016-05-29T00:16:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@4cb2c100]" name="regularLoginIn" duration-ms="1" started-at="2016-05-28T23:56:25Z" data-provider="dp" finished-at="2016-05-28T23:56:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Steven Koo / password git]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- regularLoginIn -->
-        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@4cb2c100]" name="regularLoginIn" duration-ms="0" started-at="2016-05-28T23:56:25Z" data-provider="dp" finished-at="2016-05-28T23:56:25Z">
+        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@25feb227]" name="regularLoginIn" duration-ms="0" started-at="2016-05-29T00:16:10Z" data-provider="dp" finished-at="2016-05-29T00:16:10Z">
           <params>
             <param index="0">
               <value>
@@ -36,14 +20,30 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[lucky Igho /password git]]>
+                <![CDATA[lucky Igho /password git latest]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regularLoginIn -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sk.LoginTest@4cb2c100]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-05-28T23:56:25Z" finished-at="2016-05-28T23:56:25Z">
+        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@25feb227]" name="regularLoginIn" duration-ms="0" started-at="2016-05-29T00:16:10Z" data-provider="dp" finished-at="2016-05-29T00:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Steven Koo / password git latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regularLoginIn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sk.LoginTest@25feb227]" name="afterTest" is-config="true" duration-ms="4" started-at="2016-05-29T00:16:10Z" finished-at="2016-05-29T00:16:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

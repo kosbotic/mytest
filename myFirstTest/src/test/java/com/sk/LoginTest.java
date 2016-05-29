@@ -14,7 +14,7 @@ public class LoginTest {
   @DataProvider
   public Object[][] dp() {
     return new Object[][] {
-      new Object[] { 1, "Steven Koo / password git latest" },
+      new Object[] { 1, "Steven KS Koo / password git latest" },
       new Object[] { 2, "lucky Igho /password git latest" },
     };
   }
