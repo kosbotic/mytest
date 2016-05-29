@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57" started-at="2016-05-29T02:57:17Z" finished-at="2016-05-29T02:57:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57" started-at="2016-05-29T02:57:17Z" finished-at="2016-05-29T02:57:17Z">
+      <class name="com.sk.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sk.LoginTest@56cbfb61]" name="beforeTest" is-config="true" duration-ms="12" started-at="2016-05-28T22:57:17Z" finished-at="2016-05-28T22:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@56cbfb61]" name="regularLoginIn" duration-ms="12" started-at="2016-05-28T22:57:17Z" data-provider="dp" finished-at="2016-05-28T22:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Steven]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regularLoginIn -->
+        <test-method status="PASS" signature="regularLoginIn(java.lang.Integer, java.lang.String)[pri:0, instance:com.sk.LoginTest@56cbfb61]" name="regularLoginIn" duration-ms="3" started-at="2016-05-28T22:57:17Z" data-provider="dp" finished-at="2016-05-28T22:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lucky]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regularLoginIn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sk.LoginTest@56cbfb61]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-05-28T22:57:17Z" finished-at="2016-05-28T22:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sk.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
